@@ -34,7 +34,19 @@ $$L_{total} = L_{silhouette} + w_{lap}L_{lap} + w_{edge}L_{edge} + w_{normal}L_{
 5. **过程可视化**
 输出球体逐步形变至奶牛的中间重建效果。
 
-## 效果说明
+## 重建效果展示
+初始球体：
+![初始球体](work6/work6_images/one.png)
+
+迭代100步效果：
+![迭代100](work6/work6_images/100.png)
+
+迭代200步效果：
+![迭代200](work6/work6_images/200.png)
+
+迭代300步最终重建效果：
+![迭代300](work6/work6_images/300.png)
+
 可调节正则权重、软光栅$\sigma$、学习率等参数，优化网格重建平滑度与精度。
 
 ## 环境依赖
