@@ -66,6 +66,8 @@ $$L_{total} = L_{silhouette} + w_{lap}L_{lap} + w_{edge}L_{edge} + w_{normal}L_{
 - 同步更新几何顶点位置与纹理/顶点色彩参数，几何、纹理联合收敛
 - 双损失加权平衡轮廓精度与色彩还原度，提升重建真实感
 
+![动画](work6/work6_images/work6plus.gif)  
+
 ## 环境依赖
 - Python 3.8+
 - torch, torchvision
